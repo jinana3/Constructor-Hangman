@@ -1,7 +1,7 @@
 function Letter(character, guessed = false){
   this.character = character;//underlying character
   this.guessed = guessed;//guessed yet? nope
-  this.display = function(){
+  this.toString = function(){
     if (this.guessed === false){
       //return underscore
       return " _";
@@ -21,9 +21,10 @@ function Letter(character, guessed = false){
 }
 
 
-/*var test = new Letter("e");
+var test = new Letter("e");
 console.log(test);
-console.log(test.guess("e"));*/
+console.log(test.guess("e"));
+console.log(test + "testing");
 
 module.exports = Letter;
 

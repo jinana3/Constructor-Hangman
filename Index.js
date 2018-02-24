@@ -2,6 +2,17 @@
 var inquirer = require("inquirer");
 var Word = require("./Word");
 
+var wordBank = [
+"The Godfather",
+"The Shawshank Redemption",
+"The Dark Knight",
+"Forrest Gump",
+"Inception",
+"The Lord of the Rings",
+"The Matrix",
+"City of God"
+]
+
 
 //Jina needs to complete Index.js
 //reference code below from class activities
